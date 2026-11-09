@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Layout concept: an illuminated-manuscript library — a dark emerald "reading room" hero,
+   then ivory pages with editorial columns, gold used only for hairlines, numerals and focus. */
+:root {
+  --bg: 248 245 236;        /* warm ivory page */
+  --surface: 255 253 247;   /* card paper */
+  --raised: 243 238 224;    /* inset panels */
+  --ink: 23 46 40;          /* text #172E28 */
+  --muted: 84 104 96;
+  --line: 222 213 190;
+  --emerald: 6 61 50;       /* #063D32 */
+  --forest: 9 43 38;        /* #092B26 */
+  --gold: 168 132 60;       /* gold tuned darker for text contrast on ivory */
+  --goldsoft: 200 164 93;   /* #C8A45D ornament gold */
+  --night: 7 29 25;         /* #071D19 */
+  --ivory: 248 245 236;
+  --ok: 22 120 76;
+  --warn: 176 112 16;
+  --bad: 178 52 46;
+  --shadow: 9 43 38;
+  --font-bn: "Hind Siliguri", "Noto Sans Bengali", system-ui, sans-serif;
+  --font-ar: Amiri, "Noto Naskh Arabic", "Times New Roman", serif;
+  --font-en: Inter, system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: 7 29 25; --surface: 11 39 33; --raised: 15 48 41; --ink: 236 231 216; --muted: 160 177 167;
+    --line: 34 70 60; --emerald: 18 92 74; --forest: 9 43 38; --gold: 214 182 116; --goldsoft: 200 164 93;
+    --night: 5 22 19; --ok: 84 196 140; --warn: 230 170 70; --bad: 236 112 100; --shadow: 0 0 0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: 7 29 25; --surface: 11 39 33; --raised: 15 48 41; --ink: 236 231 216; --muted: 160 177 167;
+  --line: 34 70 60; --emerald: 18 92 74; --forest: 9 43 38; --gold: 214 182 116; --goldsoft: 200 164 93;
+  --night: 5 22 19; --ok: 84 196 140; --warn: 230 170 70; --bad: 236 112 100; --shadow: 0 0 0;
+  color-scheme: dark;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--ink));
+  font-family: var(--font-bn);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+/* paints the band above the sticky header on phones */
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 60; background: rgb(var(--night));
+}
+h1, h2, h3, h4 { text-wrap: balance; line-height: 1.25; }
+:focus-visible { outline: 2px solid rgb(var(--goldsoft)); outline-offset: 3px; border-radius: 6px; }
+::selection { background: rgb(var(--goldsoft) / .35); }
+
+@layer components {
+  .gutter {
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .wrap { @apply mx-auto w-full max-w-6xl gutter; }
+  .eyebrow { @apply font-en text-[11px] font-semibold uppercase tracking-[0.18em] text-gold; }
+  .arabic {
+    font-family: var(--font-ar);
+    direction: rtl; text-align: right; unicode-bidi: isolate;
+    line-height: 2.15; font-feature-settings: "kern", "liga", "calt";
+  }
+  .card { @apply rounded-2xl border border-line/80 bg-surface shadow-card; }
+  .btn {
+    @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-[15px] font-medium transition
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary { @apply btn bg-emerald text-ivory hover:bg-forest; }
+  .btn-gold { @apply btn bg-goldsoft text-night hover:brightness-105; }
+  .btn-ghost { @apply btn border border-line bg-surface text-ink hover:border-gold/60; }
+  .chip {
+    @apply inline-flex min-h-9 items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 text-sm text-ink
+      transition hover:border-gold/70;
+  }
+  .chip[aria-pressed="true"] { @apply border-emerald bg-emerald text-ivory; }
+  .input {
+    @apply min-h-12 w-full rounded-xl border border-line bg-surface px-4 text-[16px] text-ink placeholder:text-muted/80
+      focus:border-gold focus:outline-none;
+  }
+  .num { font-variant-numeric: tabular-nums; }
+}
+
+/* Islamic geometric pattern (8-point star lattice) used as a quiet texture */
+.pattern-stars {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23C8A45D' stroke-width='.7' opacity='.55'%3E%3Cpath d='M28 6l6.2 15.8L50 28l-15.8 6.2L28 50l-6.2-15.8L6 28l15.8-6.2z'/%3E%3Cpath d='M12.4 12.4h31.2v31.2H12.4z' transform='rotate(45 28 28)'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 56px 56px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}

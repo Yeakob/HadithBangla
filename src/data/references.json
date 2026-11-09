@@ -1,0 +1,39 @@
+{
+ "texts": [
+  {
+   "name": "hadith-api (fawazahmed0)",
+   "url": "https://github.com/fawazahmed0/hadith-api",
+   "use": "আরবি মূলপাঠ, বাংলা ও ইংরেজি অনুবাদ এবং সুনান গ্রন্থের মান (গ্রেড)"
+  },
+  {
+   "name": "HadithBD",
+   "url": "https://www.hadithbd.com",
+   "use": "বাংলা অনুবাদের মূল উৎস"
+  },
+  {
+   "name": "Sunnah.com",
+   "url": "https://sunnah.com",
+   "use": "নম্বর পদ্ধতি ও প্রতিটি হাদিসের উৎস-লিংক"
+  },
+  {
+   "name": "hadith-json (AhmedBaset)",
+   "url": "https://github.com/AhmedBaset/hadith-json",
+   "use": "রিয়াদুস সালেহীনের আরবি ও ইংরেজি পাঠ (ক্রস-রেফারেন্স যাচাইয়ে ব্যবহৃত)"
+  }
+ ],
+ "graders": [
+  "Al-Albani",
+  "Zubair Ali Zai",
+  "Shuaib Al Arnaut",
+  "Ahmad Muhammad Shakir",
+  "Bashar Awad Maarouf",
+  "Abu Ghuddah",
+  "Muhammad Muhyi Al-Din Abdul Hamid",
+  "Muhammad Fouad Abd al-Baqi"
+ ],
+ "numbering": {
+  "bukhari": "Sunnah.com / ফাতহুল বারি নম্বর",
+  "muslim": "মুহাম্মাদ ফুয়াদ আবদুল বাকি নম্বর",
+  "others": "Sunnah.com নম্বর"
+ }
+}

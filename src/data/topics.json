@@ -1,0 +1,379 @@
+[
+ {
+  "id": "iman-aqidah",
+  "title": "ঈমান ও আকিদা",
+  "title_en": "Faith & Creed",
+  "icon": "ShieldCheck",
+  "description": "ঈমান, তাওহিদ, তাকদির ও আকিদা-সংক্রান্ত হাদিস।",
+  "keywords": [
+   "faith",
+   "belie(f|ver|vers|ve)",
+   "iman",
+   "tauhid|tawhid",
+   "polythe\\w*",
+   "shirk",
+   "divine decree",
+   "qadar",
+   "none has the right to be worshipped",
+   "la ilaha illa"
+  ],
+  "count": 1887,
+  "sahih_count": 1626,
+  "file": "data/topics/iman-aqidah.json"
+ },
+ {
+  "id": "salah-ibadah",
+  "title": "নামাজ ও ইবাদত",
+  "title_en": "Prayer & Worship",
+  "icon": "Landmark",
+  "description": "সালাত, অজু, মসজিদ ও ইবাদত-সংক্রান্ত হাদিস।",
+  "keywords": [
+   "prayers?",
+   "salat",
+   "salah",
+   "ablution",
+   "wudu'?",
+   "mosque",
+   "prostrat\\w*",
+   "rak'?a\\w*",
+   "adhan",
+   "iqama"
+  ],
+  "count": 7130,
+  "sahih_count": 6265,
+  "file": "data/topics/salah-ibadah.json"
+ },
+ {
+  "id": "sawm-ramadan",
+  "title": "রোজা ও রমজান",
+  "title_en": "Fasting & Ramadan",
+  "icon": "MoonStar",
+  "description": "রোজা, রমজান, সাহরি ও ইফতার-সংক্রান্ত হাদিস।",
+  "keywords": [
+   "fast(s|ing|ed)?",
+   "ramadan",
+   "suhur",
+   "iftar",
+   "saum",
+   "lailat al-qadr|night of qadr"
+  ],
+  "count": 1586,
+  "sahih_count": 1372,
+  "file": "data/topics/sawm-ramadan.json"
+ },
+ {
+  "id": "zakat-sadaqah",
+  "title": "যাকাত ও সদকা",
+  "title_en": "Zakat & Charity",
+  "icon": "HandCoins",
+  "description": "যাকাত, সদকা ও আল্লাহর পথে ব্যয়-সংক্রান্ত হাদিস।",
+  "keywords": [
+   "zakat",
+   "charity",
+   "sadaq\\w*",
+   "alms",
+   "spends? in (the way|the cause) of allah"
+  ],
+  "count": 1163,
+  "sahih_count": 1001,
+  "file": "data/topics/zakat-sadaqah.json"
+ },
+ {
+  "id": "parents",
+  "title": "পিতা-মাতার অধিকার",
+  "title_en": "Rights of Parents",
+  "icon": "HeartHandshake",
+  "description": "পিতা-মাতার প্রতি সদ্ব্যবহার ও তাঁদের অধিকার।",
+  "keywords": [
+   "parents?",
+   "dutiful",
+   "undutiful",
+   "your mother",
+   "his mother",
+   "kind to (his|your) (mother|father)"
+  ],
+  "count": 442,
+  "sahih_count": 372,
+  "file": "data/topics/parents.json"
+ },
+ {
+  "id": "family-marriage",
+  "title": "পরিবার ও দাম্পত্য জীবন",
+  "title_en": "Family & Marriage",
+  "icon": "Home",
+  "description": "বিবাহ, স্বামী-স্ত্রীর অধিকার ও পারিবারিক জীবন।",
+  "keywords": [
+   "marr(y|ied|iage|ies)",
+   "wives",
+   "his wife",
+   "her husband",
+   "spouse",
+   "dowry|mahr"
+  ],
+  "count": 2094,
+  "sahih_count": 1821,
+  "file": "data/topics/family-marriage.json"
+ },
+ {
+  "id": "children",
+  "title": "সন্তান প্রতিপালন",
+  "title_en": "Raising Children",
+  "icon": "Baby",
+  "description": "সন্তানের প্রতি দায়িত্ব, স্নেহ ও প্রতিপালন।",
+  "keywords": [
+   "children",
+   "daughters?",
+   "his son",
+   "the child",
+   "a child",
+   "orphans?"
+  ],
+  "count": 1656,
+  "sahih_count": 1408,
+  "file": "data/topics/children.json"
+ },
+ {
+  "id": "neighbours",
+  "title": "প্রতিবেশীর অধিকার",
+  "title_en": "Rights of Neighbours",
+  "icon": "Users",
+  "description": "প্রতিবেশীর অধিকার ও তাদের সাথে আচরণ।",
+  "keywords": [
+   "neighbou?rs?"
+  ],
+  "count": 160,
+  "sahih_count": 150,
+  "file": "data/topics/neighbours.json"
+ },
+ {
+  "id": "honesty-trust",
+  "title": "সততা ও আমানতদারি",
+  "title_en": "Honesty & Trust",
+  "icon": "Scale",
+  "description": "সত্যবাদিতা, আমানত রক্ষা, মিথ্যা ও প্রতারণা।",
+  "keywords": [
+   "truthful\\w*",
+   "tells? the truth",
+   "lie|lies|lying|liar",
+   "trust(worthy)?",
+   "amana\\w*",
+   "betray\\w*",
+   "cheat\\w*",
+   "deceiv\\w*|deception"
+  ],
+  "count": 941,
+  "sahih_count": 818,
+  "file": "data/topics/honesty-trust.json"
+ },
+ {
+  "id": "arrogance-purification",
+  "title": "অহংকার ও আত্মশুদ্ধি",
+  "title_en": "Pride & Self-Purification",
+  "icon": "Sparkles",
+  "description": "অহংকার, লোক দেখানো, বিনয় ও অন্তরের পরিশুদ্ধি।",
+  "keywords": [
+   "pride",
+   "arrogan\\w*",
+   "conceit\\w*",
+   "haughty",
+   "humble|humility",
+   "show off|showing off",
+   "intention",
+   "hypocri\\w*"
+  ],
+  "count": 538,
+  "sahih_count": 464,
+  "file": "data/topics/arrogance-purification.json"
+ },
+ {
+  "id": "patience-gratitude",
+  "title": "ধৈর্য ও কৃতজ্ঞতা",
+  "title_en": "Patience & Gratitude",
+  "icon": "Mountain",
+  "description": "বিপদে ধৈর্য, শোকর ও আল্লাহর ওপর ভরসা।",
+  "keywords": [
+   "patien\\w*",
+   "calamit\\w*",
+   "afflict\\w*",
+   "grateful",
+   "gratitude",
+   "thank(s|ful)?"
+  ],
+  "count": 566,
+  "sahih_count": 491,
+  "file": "data/topics/patience-gratitude.json"
+ },
+ {
+  "id": "forgiveness-mercy",
+  "title": "ক্ষমা ও দয়া",
+  "title_en": "Forgiveness & Mercy",
+  "icon": "Feather",
+  "description": "আল্লাহর ক্ষমা ও রহমত, মানুষের প্রতি দয়া ও কোমলতা।",
+  "keywords": [
+   "forgiv\\w*",
+   "pardon\\w*",
+   "merc(y|iful)",
+   "gentle(ness)?",
+   "kindness",
+   "compassion\\w*"
+  ],
+  "count": 1574,
+  "sahih_count": 1325,
+  "file": "data/topics/forgiveness-mercy.json"
+ },
+ {
+  "id": "knowledge",
+  "title": "জ্ঞান অর্জন",
+  "title_en": "Seeking Knowledge",
+  "icon": "BookOpen",
+  "description": "জ্ঞান অর্জন, শিক্ষা দেওয়া ও কুরআন শেখা।",
+  "keywords": [
+   "knowledge",
+   "learn\\w*",
+   "teach\\w*",
+   "scholars?",
+   "religious learning"
+  ],
+  "count": 907,
+  "sahih_count": 749,
+  "file": "data/topics/knowledge.json"
+ },
+ {
+  "id": "trade",
+  "title": "ব্যবসা ও লেনদেন",
+  "title_en": "Trade & Transactions",
+  "icon": "Store",
+  "description": "ক্রয়-বিক্রয়, ঋণ, পারিশ্রমিক ও ন্যায্য লেনদেন।",
+  "keywords": [
+   "buy(ing|s)?",
+   "sell(ing|s)?",
+   "sold",
+   "trade|trading",
+   "debts?",
+   "loan",
+   "bargain\\w*",
+   "merchant",
+   "wages?"
+  ],
+  "count": 1271,
+  "sahih_count": 1113,
+  "file": "data/topics/trade.json"
+ },
+ {
+  "id": "halal-haram",
+  "title": "হালাল ও হারাম",
+  "title_en": "Lawful & Unlawful",
+  "icon": "Ban",
+  "description": "হালাল-হারাম, সুদ, মাদক ও নিষিদ্ধ বিষয়।",
+  "keywords": [
+   "unlawful",
+   "lawful",
+   "forbid(den)?",
+   "prohibit\\w*",
+   "riba|usury",
+   "wine",
+   "intoxica\\w*"
+  ],
+  "count": 1642,
+  "sahih_count": 1410,
+  "file": "data/topics/halal-haram.json"
+ },
+ {
+  "id": "character",
+  "title": "চরিত্র ও নৈতিকতা",
+  "title_en": "Character & Ethics",
+  "icon": "Gem",
+  "description": "উত্তম চরিত্র, লজ্জাশীলতা, জিহ্বার হেফাজত ও আদব।",
+  "keywords": [
+   "character",
+   "good manners|manners",
+   "modest\\w*",
+   "shyness|haya'?",
+   "backbit\\w*",
+   "tongue",
+   "good conduct",
+   "anger|angry"
+  ],
+  "count": 684,
+  "sahih_count": 572,
+  "file": "data/topics/character.json"
+ },
+ {
+  "id": "death-akhirah",
+  "title": "মৃত্যু ও আখিরাত",
+  "title_en": "Death & the Hereafter",
+  "icon": "Hourglass",
+  "description": "মৃত্যু, কবর, পুনরুত্থান ও বিচার দিবস।",
+  "keywords": [
+   "death",
+   "dies|died|dying",
+   "graves?",
+   "resurrection",
+   "hereafter",
+   "day of judgement|day of judgment",
+   "the last day"
+  ],
+  "count": 3489,
+  "sahih_count": 3020,
+  "file": "data/topics/death-akhirah.json"
+ },
+ {
+  "id": "jannah-jahannam",
+  "title": "জান্নাত ও জাহান্নাম",
+  "title_en": "Paradise & Hell",
+  "icon": "Flame",
+  "description": "জান্নাতের নিয়ামত ও জাহান্নামের শাস্তি।",
+  "keywords": [
+   "paradise",
+   "jannah",
+   "hell",
+   "hell-?fire",
+   "the fire"
+  ],
+  "count": 2071,
+  "sahih_count": 1757,
+  "file": "data/topics/jannah-jahannam.json"
+ },
+ {
+  "id": "dua-dhikr",
+  "title": "দোয়া ও জিকির",
+  "title_en": "Supplication & Remembrance",
+  "icon": "Hand",
+  "description": "দোয়া, জিকির, তাসবিহ ও ইস্তিগফার।",
+  "keywords": [
+   "supplicat\\w*",
+   "invok\\w*",
+   "du'?a'?",
+   "remembrance",
+   "glorif\\w*",
+   "subhan\\w*",
+   "seek(s)? refuge",
+   "seek(ing)? forgiveness",
+   "tasbih|takbir|tahlil"
+  ],
+  "count": 1959,
+  "sahih_count": 1658,
+  "file": "data/topics/dua-dhikr.json"
+ },
+ {
+  "id": "social-duty",
+  "title": "সামাজিক দায়িত্ব",
+  "title_en": "Social Responsibility",
+  "icon": "HandHelping",
+  "description": "দরিদ্র, অসুস্থ, অতিথি, ইয়াতিম ও সমাজের প্রতি দায়িত্ব।",
+  "keywords": [
+   "the poor",
+   "needy",
+   "widows?",
+   "guests?",
+   "visit(ing|s)? the sick",
+   "oppress\\w*",
+   "his brother",
+   "a muslim is the brother",
+   "helps?"
+  ],
+  "count": 1070,
+  "sahih_count": 933,
+  "file": "data/topics/social-duty.json"
+ }
+]
